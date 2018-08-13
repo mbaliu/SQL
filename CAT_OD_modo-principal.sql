@@ -1,0 +1,20 @@
+SELECT modoprin
+			WHEN  01 THEN 'Ônibus Município S.Paulo'
+			WHEN  02 THEN 'Ônibus Outros Municípios'
+			WHEN  03 THEN 'Ônibus Metropolitano'
+			WHEN  04 THEN 'Ônibus Fretado'
+			WHEN  05 THEN 'Escolar'
+			WHEN  06 THEN 'Dirigindo Automóvel'
+			WHEN  07 THEN 'Passageiro de Automóvel'
+			WHEN  08 THEN 'Táxi'
+			WHEN  09 THEN 'Microônibus/Van Município de S.Paulo'
+			WHEN  10 THEN 'Microônibus/Van Outros Município'
+			WHEN  11 THEN 'Microônibus/Van Metropolitano'
+			WHEN  12 THEN 'Metrô'
+			WHEN  13 THEN 'Trem'
+			WHEN  14 THEN 'Moto'
+			WHEN  15 THEN 'Bicicleta'
+			WHEN  16 THEN 'A Pé'
+			WHEN  17 THEN 'Outros'
+			END AS CATEGORIA
+FROM "OD_2007"
